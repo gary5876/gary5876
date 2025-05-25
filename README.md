@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+🌱 I’m currently learning backend skills, espically about spring boot
+any ideas or skills are welcomed
+
 <!--
 **gary5876/gary5876** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
