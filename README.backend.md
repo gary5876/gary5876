@@ -8,11 +8,11 @@
 
 ### [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE) (Java, Spring Boot)
 
-대학 동아리 모집과 지원자 관리를 해주는 서비스입니다. 카카오테크캠퍼스에서 3명이 9개월 동안 만들었고 제 커밋은 520개입니다. 저는 통계 도메인을 처음부터 끝까지 맡았습니다. 코드를 보신다면 JWT 클레임에 동아리별 역할을 실어서 DB 조회 없이 처리하는 인가 로직(`global/security/CustomSecurityService`)과 계층별로 나눠 쌓은 테스트 290개를 봐주세요. Prometheus와 Grafana, Loki로 모니터링 환경도 팀에서 직접 구축해 운영했습니다.
+대학 동아리 모집과 지원자 관리를 해주는 서비스입니다. 카카오테크캠퍼스에서 3명이 9개월 동안 만들었고 저는 커밋 403개를 쌓았습니다. 지원서 제출 도메인을 주로 맡았고 통계와 공지, 이메일 알림 기능은 처음부터 끝까지 제가 만들었습니다. 코드를 보신다면 지원서 제출 흐름(`domain/application`)과 계층별로 나눠 쌓은 테스트 290개를 봐주세요. Prometheus와 Grafana, Loki로 모니터링 환경도 팀에서 직접 구축해 운영했습니다.
 
 ### [study-helper-backend](https://github.com/gary5876/study-helper-backend) (Python, FastAPI)
 
-PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니다. 혼자 만들어서 Cloud Run에 올렸습니다. LLM 프로바이더 3곳의 장애를 각각 서킷 브레이커로 격리했는데 사용자가 API 키를 잘못 넣은 경우까지 실패로 세면 안 되니까 401은 카운트에서 뺐습니다. CI에서는 테스트 280개와 Trivy 스캔, 커버리지 리포트가 돕니다.
+PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니다. 혼자 만들었고 CI와 Cloud Run 배포 구성까지 직접 했습니다. LLM 프로바이더 3곳의 장애를 각각 서킷 브레이커로 격리했는데 사용자가 API 키를 잘못 넣은 경우까지 실패로 세면 안 되니까 401은 카운트에서 뺐습니다. CI에서는 테스트 280개와 Trivy 스캔, 커버리지 리포트가 돕니다.
 
 ## 배경
 
