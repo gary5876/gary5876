@@ -1,27 +1,25 @@
 # 안녕하세요, 백엔드 개발자 Junseo입니다 👋
 
-**Spring · Kotlin · Python 백엔드**를 만들고, **코딩에이전트와 LLM으로 개발 프로세스를 자동화**합니다.
-API 설계부터 DB 모델링, 클라우드 배포·CI까지 서비스를 끝까지 만들어 운영하는 것을 좋아합니다.
+**Java · Kotlin · Python 백엔드**를 만들고, **코딩에이전트와 LLM으로 개발 프로세스를 자동화**합니다.
+API 설계부터 DB 모델링, 테스트, 클라우드 배포·모니터링까지 — 서비스를 끝까지 만들어 운영하는 것을 좋아합니다.
 
 ## 🛠 주요 프로젝트
 
-### Backend & AI 서비스
+### Backend
 
 | 프로젝트 | 스택 | 내용 |
 |---|---|---|
-| [study-helper-backend](https://github.com/gary5876/study-helper-backend) | FastAPI · PostgreSQL · AWS | PDF → LLM(Claude/GPT) 학습 콘텐츠 생성 API. 3단계 비동기 파이프라인, 서킷 브레이커·지수 백오프, PDF 해시 캐싱으로 LLM 비용 절감. EC2+ECR+SSM, GitHub Actions OIDC 배포 |
-| [shipchajang](https://github.com/gary5876/shipchajang) | FastAPI · Python | 무단주차 감지·알림 시스템 — 엣지 카메라 → 번호판 인식 → 위반 판정 엔진 → 증거 기반 푸시. DDL·JSON Schema 스펙 주도 설계 |
-| BookStore *(공개 전환 준비 중)* | Kotlin · Spring Boot · GCP | P2P 전자책 마켓 + 인앱 리더. 모듈러 모놀리스, Flyway, Cloud Run·Cloud SQL·GCS, CI |
-| [spring-gift-order](https://github.com/gary5876/spring-gift-order) | Java · Spring Boot | 카카오테크캠퍼스 백엔드 과정 — [product](https://github.com/gary5876/spring-gift-product) → [wishlist](https://github.com/gary5876/spring-gift-wishlist) → [enhancement](https://github.com/gary5876/spring-gift-enhancement) → order, 단계별 코드리뷰로 완성 |
+| [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE) | Java · Spring Boot · Redis | 대학 동아리 모집·지원자 관리 서비스 — 카카오테크캠퍼스 4인 팀 프로젝트(9개월). JWT 클레임 기반 동아리별 역할 인가를 `@PreAuthorize` SpEL 커스텀 빈으로 22개 엔드포인트에 적용, 단위·슬라이스·리포지토리·통합 4계층 테스트 290개, Prometheus·Grafana·Loki 모니터링 + 비즈니스 메트릭·Discord 알림, ECR→EC2 배포·Flyway. 통계 도메인 설계·구현 담당 |
+| [study-helper-backend](https://github.com/gary5876/study-helper-backend) | FastAPI · PostgreSQL · GCP | PDF → LLM(Claude/GPT) 학습 콘텐츠 생성 API. 3개 LLM 프로바이더에 서킷 브레이커·지수 백오프 직접 구현(인증 실패는 브레이커 카운트에서 제외), PDF 해시 캐싱으로 중복 LLM 호출 제거, 테스트 280개, CI(Trivy·ruff·codecov), Cloud Run 키리스(WIF) 배포 |
+| BookStore *(공개 전환 준비 중)* | Kotlin · Spring Boot · GCP | P2P 전자책 마켓 — 서버와 Android 앱 단독 구현. Refresh 토큰 해시 저장+rotation, OAuth 계정 탈취 방어, 포트/어댑터로 스토리지·스캐너·푸시·검색 추상화, Testcontainers(MySQL 8.4) E2E 포함 테스트 241개, Cloud Run 배포 |
 
-### AI 활용 · 자동화
+### AI
 
 | 프로젝트 | 스택 | 내용 |
 |---|---|---|
-| [loop-for-claude](https://github.com/gary5876/loop-for-claude) | TypeScript · CLI | Claude에게 반복 작업을 맡기는 도구 — 고정 주기 또는 self-paced(모델이 다음 실행 시점을 스스로 결정). 로컬·GitHub Actions·Docker 지원 |
-| [job-notifier](https://github.com/gary5876/job-notifier) | Python · Discord | 채용공고 조사→알림 파이프라인. 조사(사람/AI)와 전송·중복제거·기록(스크립트)의 역할 분리 설계 |
-| [vgc-ai](https://github.com/gary5876/vgc-ai) | Python · RL | IEEE CoG 2026 포켓몬 VGC AI 대회 출전 에이전트 (배틀·챔피언십·룰 밸런스 3개 트랙) |
+| [vgc-ai](https://github.com/gary5876/vgc-ai) | Python · scipy · GCP | IEEE CoG 2026 VGC AI 대회 준비 중인 게임 AI — 휴리스틱 평가함수 + LP-minimax(Nash 혼합전략) 팀빌딩. **GCP VM에서 코딩에이전트가 전략을 제안→자가대전 벤치→리뷰→머지하는 자율 실험 루프를 상시 운영**, n=2000 벤치의 95% 신뢰구간 하한을 통과한 변경만 채택. mypy strict · 테스트 345개. 교내 대회 1위(25명) |
 | [rag-survey-notes](https://github.com/gary5876/rag-survey-notes) | RAG | RAG 서베이 논문(arXiv:2312.10997) 정독 노트 — 요약·다이어그램·실무 적용 가이드 |
+| [capstone-dsc](https://github.com/gary5876/capstone-dsc) | Python · Jupyter | 데이터 품질 점수(DSC)가 ML 모델 성능을 예측하는가 — 3개 데이터셋 × 5종 오염 주입 × 5개 모델 실증 분석 (캡스톤) |
 
 ## ⚙️ 기술 스택
 
@@ -30,15 +28,16 @@ API 설계부터 DB 모델링, 클라우드 배포·CI까지 서비스를 끝까
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 ## 📚 교육 · 경험
 
-- **카카오테크캠퍼스** 백엔드 과정 — Spring 단계별 미션을 코드리뷰 받으며 완주 (spring-gift 시리즈)
-- **인공지능학부** — 캡스톤 프로젝트 ([capstone-dsc](https://github.com/gary5876/capstone-dsc), [ai-ready-dsc](https://github.com/gary5876/ai-ready-dsc))
+- **카카오테크캠퍼스** 백엔드 과정 — Spring 단계별 미션([spring-gift](https://github.com/gary5876/spring-gift-order) 시리즈)을 코드리뷰 받으며 완주 후, 팀 프로젝트 Team18_BE 수행
+- **인공지능학부** — 캡스톤 프로젝트 수행
