@@ -1,35 +1,21 @@
 <!-- 백엔드 전용 변형. 사용법: cp README.backend.md README.md && git commit -am "profile: backend" && git push -->
 
-# 안녕하세요, 백엔드 개발자 Junseo입니다 👋
+# 안녕하세요, Junseo입니다
 
-**Java · Kotlin · Spring Boot** 중심의 백엔드 개발자입니다.
-REST API 설계, DB 모델링, 계층별 테스트, 클라우드 배포·모니터링까지 — 서비스를 만들고 끝까지 운영하는 것을 좋아합니다.
+백엔드 개발자입니다. Java와 Spring으로 팀 프로젝트를 했고 Python과 FastAPI로 혼자 만들어 배포한 서비스도 있습니다. API 설계부터 DB 모델링, 테스트, 배포와 모니터링까지 끝까지 가져가는 걸 좋아합니다.
 
-## 🛠 주요 프로젝트
+## 어디부터 보면 좋을지
 
-| 프로젝트 | 스택 | 내용 |
-|---|---|---|
-| [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE) | Java · Spring Boot · Redis | 대학 동아리 모집·지원자 관리 서비스 — 카카오테크캠퍼스 3인 팀 프로젝트(9개월). JWT 클레임 기반 동아리별 역할 인가(`@PreAuthorize` SpEL 커스텀 빈, 22개 엔드포인트), 단위·슬라이스·리포지토리·통합 4계층 테스트 290개, Prometheus·Grafana·Loki 모니터링 + 비즈니스 메트릭, ECR→EC2 배포·Flyway. 통계 도메인 설계·구현 담당 |
-| BookStore *(공개 전환 준비 중)* | Kotlin · Spring Boot · GCP | P2P 전자책 마켓 — 서버와 Android 앱 단독 구현. Refresh 토큰 해시 저장+rotation, OAuth 계정 탈취 방어, 포트/어댑터 아키텍처, Testcontainers(MySQL 8.4) E2E 포함 테스트 241개, Cloud Run 배포 |
-| [study-helper-backend](https://github.com/gary5876/study-helper-backend) | FastAPI · PostgreSQL · GCP | PDF → LLM 학습 콘텐츠 생성 API. 서킷 브레이커·지수 백오프 직접 구현, 해시 캐싱, 테스트 280개, CI(Trivy·ruff·codecov), Cloud Run 키리스(WIF) 배포 |
+### [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE) (Java, Spring Boot)
 
-## ⚙️ 기술 스택
+대학 동아리 모집과 지원자 관리를 해주는 서비스입니다. 카카오테크캠퍼스에서 3명이 9개월 동안 만들었고 제 커밋은 520개입니다. 저는 통계 도메인을 처음부터 끝까지 맡았습니다. 코드를 보신다면 JWT 클레임에 동아리별 역할을 실어서 DB 조회 없이 처리하는 인가 로직(`global/security/CustomSecurityService`)과 계층별로 나눠 쌓은 테스트 290개를 봐주세요. Prometheus와 Grafana, Loki로 모니터링 환경도 팀에서 직접 구축해 운영했습니다.
 
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+### [study-helper-backend](https://github.com/gary5876/study-helper-backend) (Python, FastAPI)
 
-## 📚 교육 · 경험
+PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니다. 혼자 만들어서 Cloud Run에 올렸습니다. LLM 프로바이더 3곳의 장애를 각각 서킷 브레이커로 격리했는데 사용자가 API 키를 잘못 넣은 경우까지 실패로 세면 안 되니까 401은 카운트에서 뺐습니다. CI에서는 테스트 280개와 Trivy 스캔, 커버리지 리포트가 돕니다.
 
-- **카카오테크캠퍼스** 백엔드 과정 — Spring 단계별 미션([spring-gift](https://github.com/gary5876/spring-gift-order) 시리즈)을 코드리뷰 받으며 완주 후, 팀 프로젝트 Team18_BE 수행
-- 코딩에이전트·LLM을 개발 프로세스에 적극 활용 — [vgc-ai](https://github.com/gary5876/vgc-ai)에서 GCP VM 자율 실험 루프(제안→벤치→리뷰→머지) 운영
+## 배경
+
+카카오테크캠퍼스 백엔드 과정을 수료했습니다. [spring-gift](https://github.com/gary5876/spring-gift-order) 미션을 단계별로 코드리뷰 받으며 진행했고 그 과정이 위의 Team18_BE 팀 프로젝트로 이어졌습니다. 학부는 인공지능학부입니다.
+
+주로 쓰는 것: Java, Kotlin, Spring Boot, Python, FastAPI, MySQL, PostgreSQL, Redis, Docker, AWS, GCP
