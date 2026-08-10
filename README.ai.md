@@ -12,7 +12,7 @@ IEEE CoG 2026 포켓몬 VGC AI 대회를 준비 중인 게임 AI입니다. 수�
 
 ### [study-helper-backend](https://github.com/gary5876/study-helper-backend) (Python, FastAPI)
 
-PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니다. 혼자 만들었고 CI와 Cloud Run 배포 구성까지 직접 했습니다. LLM 프로바이더 3곳의 장애를 각각 서킷 브레이커로 격리했고 같은 PDF가 다시 올라오면 해시로 알아채서 LLM을 다시 부르지 않습니다.
+PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니다. 외부 LLM API 세 곳을 연동하면서 장애를 서킷 브레이커로 격리했고 같은 PDF가 다시 오면 해시로 잡아 호출 비용을 줄였습니다. 혼자 만들었고 CI와 Cloud Run 배포 구성까지 직접 했습니다.
 
 이 외에 RAG 서베이 논문을 정독하고 정리한 [rag-survey-notes](https://github.com/gary5876/rag-survey-notes)와 데이터 품질 점수가 ML 모델 성능을 예측하는지 실증해 본 캡스톤 [capstone-dsc](https://github.com/gary5876/capstone-dsc)가 있습니다.
 

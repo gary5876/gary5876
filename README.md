@@ -6,7 +6,7 @@
 
 ### [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE) (Java, Spring Boot)
 
-대학 동아리 모집과 지원자 관리를 해주는 서비스입니다. 카카오테크캠퍼스에서 3명이 9개월 동안 만들었고 저는 커밋 403개를 쌓았습니다. 지원서 제출 도메인을 주로 맡았고 통계와 공지, 이메일 알림 기능은 처음부터 끝까지 제가 만들었습니다. 코드를 보신다면 지원서 제출 흐름(`domain/application`)과 계층별로 나눠 쌓은 테스트 290개를 봐주세요. Prometheus와 Grafana, Loki로 모니터링 환경도 팀에서 직접 구축해 운영했습니다.
+대학 동아리 모집과 지원자 관리를 해주는 서비스입니다. 카카오테크캠퍼스에서 3명이 9개월 동안 만들어 운영했습니다. 저는 지원서 제출 도메인의 API 설계와 DB 모델링을 맡았고 통계, 공지, 이메일 알림은 처음부터 끝까지 만들었습니다. 이메일 발송은 이벤트로 분리해 비동기 처리하고 실패를 재시도 가능한 것과 아닌 것으로 분류해 대응했습니다. 지원서 조회 쪽은 join fetch와 프로젝션으로 불필요한 쿼리를 줄였습니다. 모니터링은 Prometheus와 Grafana, Loki를 팀에서 직접 구축했고 비즈니스 지표를 등록해 Discord 알림까지 연결했습니다. 테스트는 계층별로 나눠 290개를 쌓았습니다.
 
 ### [vgc-ai](https://github.com/gary5876/vgc-ai) (Python)
 
@@ -14,7 +14,7 @@ IEEE CoG 2026 포켓몬 VGC AI 대회를 준비 중인 게임 AI입니다. 수�
 
 ### [study-helper-backend](https://github.com/gary5876/study-helper-backend) (Python, FastAPI)
 
-PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니다. 혼자 만들었고 CI와 Cloud Run 배포 구성까지 직접 했습니다. LLM 프로바이더 3곳의 장애를 각각 서킷 브레이커로 격리했는데 사용자가 API 키를 잘못 넣은 경우까지 실패로 세면 안 되니까 401은 카운트에서 뺐습니다. 같은 PDF가 다시 올라오면 해시로 알아채서 LLM을 다시 부르지 않습니다.
+PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니다. 외부 LLM API 세 곳을 연동하면서 장애를 서킷 브레이커로 격리했고 사용자가 API 키를 잘못 넣은 401은 장애로 세지 않도록 분류했습니다. 같은 PDF가 다시 오면 해시로 잡아 호출 비용을 줄였고 레이트리밋과 요청 추적, 메트릭 같은 운영 장치도 붙였습니다. 혼자 만들었고 CI와 Cloud Run 배포 구성까지 직접 했습니다.
 
 이 외에 RAG 서베이 논문을 정독하고 정리한 [rag-survey-notes](https://github.com/gary5876/rag-survey-notes)와 데이터 품질 점수가 ML 모델 성능을 예측하는지 실증해 본 캡스톤 [capstone-dsc](https://github.com/gary5876/capstone-dsc)가 있습니다.
 
