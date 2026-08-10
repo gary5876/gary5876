@@ -9,7 +9,7 @@ REST API 설계, DB 모델링, 계층별 테스트, 클라우드 배포·모니�
 
 | 프로젝트 | 스택 | 내용 |
 |---|---|---|
-| [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE) | Java · Spring Boot · Redis | 대학 동아리 모집·지원자 관리 서비스 — 카카오테크캠퍼스 4인 팀 프로젝트(9개월). JWT 클레임 기반 동아리별 역할 인가(`@PreAuthorize` SpEL 커스텀 빈, 22개 엔드포인트), 단위·슬라이스·리포지토리·통합 4계층 테스트 290개, Prometheus·Grafana·Loki 모니터링 + 비즈니스 메트릭, ECR→EC2 배포·Flyway. 통계 도메인 설계·구현 담당 |
+| [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE) | Java · Spring Boot · Redis | 대학 동아리 모집·지원자 관리 서비스 — 카카오테크캠퍼스 3인 팀 프로젝트(9개월). JWT 클레임 기반 동아리별 역할 인가(`@PreAuthorize` SpEL 커스텀 빈, 22개 엔드포인트), 단위·슬라이스·리포지토리·통합 4계층 테스트 290개, Prometheus·Grafana·Loki 모니터링 + 비즈니스 메트릭, ECR→EC2 배포·Flyway. 통계 도메인 설계·구현 담당 |
 | BookStore *(공개 전환 준비 중)* | Kotlin · Spring Boot · GCP | P2P 전자책 마켓 — 서버와 Android 앱 단독 구현. Refresh 토큰 해시 저장+rotation, OAuth 계정 탈취 방어, 포트/어댑터 아키텍처, Testcontainers(MySQL 8.4) E2E 포함 테스트 241개, Cloud Run 배포 |
 | [study-helper-backend](https://github.com/gary5876/study-helper-backend) | FastAPI · PostgreSQL · GCP | PDF → LLM 학습 콘텐츠 생성 API. 서킷 브레이커·지수 백오프 직접 구현, 해시 캐싱, 테스트 280개, CI(Trivy·ruff·codecov), Cloud Run 키리스(WIF) 배포 |
 
