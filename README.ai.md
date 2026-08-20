@@ -16,6 +16,10 @@ PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니�
 
 이 외에 RAG 서베이 논문을 정독하고 정리한 [rag-survey-notes](https://github.com/gary5876/rag-survey-notes)와 데이터 품질 점수가 ML 모델 성능을 예측하는지 실증해 본 캡스톤 [capstone-dsc](https://github.com/gary5876/capstone-dsc)가 있습니다.
 
+## 자격
+
+AWS Certified Cloud Practitioner를 취득했습니다. study-helper-backend와 vgc-ai를 GCP에 올리면서 다진 클라우드 기본기의 연장선입니다.
+
 ## 배경
 
 인공지능학부에서 공부했고 카카오테크캠퍼스 백엔드 과정을 수료했습니다. 팀 프로젝트 [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)에서는 지원서 제출 도메인과 통계, 공지, 이메일 알림을 맡았습니다.

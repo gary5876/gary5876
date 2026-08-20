@@ -14,6 +14,10 @@
 
 PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니다. 외부 LLM API 세 곳을 연동하면서 장애를 서킷 브레이커로 격리했고 사용자가 API 키를 잘못 넣은 401은 장애로 세지 않도록 분류했습니다. 레이트리밋과 요청 추적, 메트릭 같은 운영 장치를 붙였고 CI에서는 테스트와 함께 Trivy 스캔, 커버리지 리포트가 돕니다. 혼자 만들었고 Cloud Run 배포 구성까지 직접 했습니다.
 
+## 자격
+
+AWS Certified Cloud Practitioner를 취득했습니다. study-helper-backend를 GCP에 올리면서 다진 클라우드 기본기의 연장선입니다.
+
 ## 배경
 
 카카오테크캠퍼스 백엔드 과정을 수료했습니다. [spring-gift](https://github.com/gary5876/spring-gift-order) 미션을 단계별로 코드리뷰 받으며 진행했고 그 과정이 위의 Team18_BE 팀 프로젝트로 이어졌습니다. 학부는 인공지능학부입니다.
