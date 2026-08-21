@@ -2,7 +2,7 @@
 
 # 안녕하세요, Junseo입니다
 
-카카오테크캠퍼스에서 Java/Spring으로 팀 프로젝트를 했고 Python/FastAPI로는 혼자 설계부터 배포까지 해봤습니다. 요즘은 장애가 났을 때 바로 보이게 만드는 쪽에 관심이 많아서 팀 프로젝트에 Prometheus·Grafana·Loki를 직접 붙였습니다. 앞으로는 OpenTelemetry 같은 관측성 도구나 Celery 같은 분산 태스크 큐를 더 큰 트래픽에서 써보고 싶습니다.
+카카오테크캠퍼스에서 Java/Spring으로 팀 프로젝트를 했고 Python/FastAPI로는 혼자 설계부터 배포까지 해봤습니다. 요즘은 장애가 났을 때 바로 보이게 만드는 쪽에 관심이 많아서 팀 프로젝트에 Prometheus·Grafana·Loki를 직접 붙였고, Temporal로 LLM 파이프라인 결과를 검증하는 과정도 자동화해봤습니다. 앞으로는 OpenTelemetry 같은 관측성 도구나 Celery 같은 분산 태스크 큐를 더 큰 트래픽에서 써보고 싶습니다.
 
 ## [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)
 

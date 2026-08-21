@@ -1,6 +1,6 @@
 # 안녕하세요, Junseo입니다
 
-카카오테크캠퍼스에서 Java/Spring으로 팀 프로젝트를 했고 Python/FastAPI로는 혼자 설계부터 배포까지 해봤습니다. 요즘은 에이전트가 파이프라인을 스스로 돌리게 만드는 쪽에 관심이 많아서 개인 프로젝트에 계속 적용해보고 있는데, 결과를 그냥 받지 않고 검증 기준을 통과한 것만 반영하는 방식으로 씁니다. 앞으로는 Celery 같은 분산 태스크 큐나 OpenTelemetry 같은 관측성 도구를 실전 프로젝트에 제대로 붙여보고 싶습니다.
+카카오테크캠퍼스에서 Java/Spring으로 팀 프로젝트를 했고 Python/FastAPI로는 혼자 설계부터 배포까지 해봤습니다. 요즘은 Temporal로 LLM 파이프라인 결과를 검증하는 과정을 자동화하는 데 관심이 많아서 개인 프로젝트에 직접 써보고 있습니다. 앞으로는 Celery 같은 분산 태스크 큐나 OpenTelemetry 같은 관측성 도구를 팀 단위 서비스에도 제대로 붙여보고 싶습니다.
 
 ## [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)
 
