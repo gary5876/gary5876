@@ -2,7 +2,7 @@
 
 # 안녕하세요, Junseo입니다
 
-백엔드 개발자입니다. Java/Spring으로 만든 서비스를 지금도 운영하고 있고 Python/FastAPI로는 혼자 설계부터 배포까지 해봤습니다. API 설계, DB 모델링, 장애 대응, 모니터링까지 끝까지 가져가는 걸 좋아합니다.
+카카오테크캠퍼스에서 Java/Spring으로 팀 프로젝트를 했고 Python/FastAPI로는 혼자 설계부터 배포까지 해봤습니다. 요즘은 API를 짜는 것보다 장애가 왜 났는지, 어떻게 하면 다시 안 나는지를 더 오래 들여다봅니다. 앞으로는 운영 경험을 더 쌓아서 트래픽이 큰 서비스도 다뤄보고 싶습니다.
 
 ## [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)
 
