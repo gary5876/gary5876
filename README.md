@@ -20,7 +20,7 @@ PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니�
 
 ## 자격
 
-AWS Certified Cloud Practitioner를 취득했습니다. study-helper-backend와 vgc-ai를 GCP에 올리면서 클라우드 쪽 기본기를 다졌고 그 연장선입니다.
+AWS Certified Cloud Practitioner와 AWS Certified AI Practitioner를 취득했습니다. study-helper-backend와 vgc-ai를 GCP에 올리면서 클라우드 쪽 기본기를 다졌고 그 연장선입니다.
 
 ## 배경
 
