@@ -4,11 +4,11 @@
 
 ## [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)
 
-동아리 모집·지원자 관리 서비스 [Dongariu-um](https://github.com/kakao-tech-campus-3rd-step3/Team18_FE)의 백엔드입니다. 카카오테크캠퍼스에서 백엔드 3명, 프론트 3명이 9개월째 만들어 지금도 운영하고 있습니다. 저는 백엔드에서 지원서 제출 도메인의 API와 DB 모델링을 맡았고 통계·공지·이메일 알림은 처음부터 끝까지 혼자 만들었습니다. 지원서 목록 조회가 느려서 join fetch와 프로젝션으로 쿼리를 줄였고, 이메일 발송은 이벤트로 분리해 재시도 가능한 실패와 아닌 실패를 나눠 처리했습니다. 장애를 바로 보려고 Prometheus·Grafana·Loki 모니터링을 팀에서 직접 붙였고, 테스트는 계층별로 290개를 쌓았습니다.
+동아리 모집·지원자 관리 서비스 [Dongariu-um](https://github.com/kakao-tech-campus-3rd-step3/Team18_FE)의 백엔드입니다. 카카오테크캠퍼스에서 백엔드 3명, 프론트 3명이 1년째 만들고 있고 지금도 운영하고 있습니다. 저는 백엔드에서 지원서 제출 도메인의 API와 DB 모델링을 맡았고 통계와 공지는 처음부터 끝까지 혼자 만들었으며 이메일 알림도 대부분 제가 작성했습니다. 지원서 목록 조회가 느려서 join fetch와 프로젝션으로 쿼리를 줄였고, 이메일 발송은 이벤트로 분리해 재시도 가능한 실패와 아닌 실패를 나눠 처리했습니다. 장애를 바로 보려고 Prometheus·Grafana·Loki 모니터링을 팀에서 직접 붙였고, 테스트는 계층별로 299개를 쌓았습니다.
 
 ## [vgc-ai](https://github.com/gary5876/vgc-ai)
 
-IEEE CoG 2026 포켓몬 VGC AI 대회를 준비하는 게임 AI입니다. GCP VM에 코딩에이전트를 올려서 전략을 제안하고 자가대전 2000판으로 검증한 뒤 신뢰구간 기준을 통과한 것만 merge하는 루프를 상시 돌립니다. 좋아 보이던 변경이 재검증에서 기각되는 경우도 그대로 기록해 둡니다. 수업에서 연 25명 리그전에서는 1위를 했습니다.
+IEEE CoG 2026 포켓몬 VGC AI 대회를 준비하는 게임 AI입니다. GCP VM에 코딩에이전트를 올려서 전략을 제안하게 하고, 자가대전 2000판으로 검증해 신뢰구간 기준을 통과한 것만 merge하는 방식으로 운영했습니다. 좋아 보이던 변경이 재검증에서 기각된 경우도 그대로 기록해 뒀습니다. 수업에서 연 25명 리그전 팀빌딩(Championship) 부문에서 1위를 했습니다.
 
 ## [study-helper-backend](https://github.com/gary5876/study-helper-backend)
 
