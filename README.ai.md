@@ -16,6 +16,6 @@ PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 API입니�
 
 ## 배경
 
-인공지능학부에서 공부했고 카카오테크캠퍼스 백엔드 과정을 수료했습니다. 팀 프로젝트 [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)에서는 지원서 제출 도메인의 API와 DB 모델링, 통계·공지·이메일 알림을 맡았습니다. AWS Certified Cloud Practitioner와 AI Practitioner를 갖고 있습니다.
+인공지능학부에서 공부했고 카카오테크캠퍼스 백엔드 과정을 수료했습니다. 6명(백엔드 3, 프론트 3) 팀 프로젝트 [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)에서는 지원서 제출 도메인의 API와 DB 모델링, 통계·공지·이메일 알림을 맡았습니다. AWS Certified Cloud Practitioner와 AI Practitioner를 갖고 있습니다.
 
 Python, FastAPI, scipy, Java, Spring Boot, PostgreSQL, Docker, GCP
