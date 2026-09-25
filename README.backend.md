@@ -4,7 +4,9 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:1B64DA,100:2698BA&height=200&section=header&text=Junseo%20Go&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%2C%20verifying%20what%20AI%20agents%20build&descAlignY=55&descSize=18)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=1B64DA&center=true&vCenter=true&width=700&lines=%EB%8F%99%EC%95%84%EB%A6%AC%EC%9B%80+%EC%8B%A4%EC%82%AC%EC%9A%A9%EC%9E%90+3%2C500%EB%AA%85%2C+1%EB%85%84%EA%B0%84+%EC%9A%B4%EC%98%81+%EC%A4%91;%ED%85%8C%EC%8A%A4%ED%8A%B8+299%EA%B0%9C%2C+Prometheus+Grafana+Loki+%EC%A7%81%EC%A0%91+%EA%B5%AC%EC%B6%95;Cloud+Run+%EB%B0%B0%ED%8F%AC%2C+CI%EC%97%90+Trivy+%EC%8A%A4%EC%BA%94%EA%B3%BC+%EC%BB%A4%EB%B2%84%EB%A6%AC%EC%A7%80)](https://gary5876.github.io/portfolio/)
+![실사용자 3,500명](https://img.shields.io/badge/동아리움_실사용자-3,500명-1B64DA?style=for-the-badge)
+![테스트 299개](https://img.shields.io/badge/테스트-계층별_299개-2698BA?style=for-the-badge)
+![모니터링](https://img.shields.io/badge/장애_모니터링-Prometheus_Grafana_Loki_직접_구축-1B64DA?style=for-the-badge)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-gary5876.github.io%2Fportfolio-1B64DA?style=flat-square)](https://gary5876.github.io/portfolio/)
 [![Email](https://img.shields.io/badge/Email-jerry0622%40naver.com-2698BA?style=flat-square&logo=gmail&logoColor=white)](mailto:jerry0622@naver.com)
@@ -37,13 +39,6 @@ PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스�
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 
----
-
-<div align="center">
-
-![streak stats](https://streak-stats.demolab.com/?user=gary5876&theme=default&hide_border=true&background=FFFFFF00&ring=1B64DA&fire=2698BA&currStreakLabel=1B64DA)
-
-</div>

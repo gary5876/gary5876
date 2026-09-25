@@ -4,7 +4,9 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:1B64DA,100:2698BA&height=200&section=header&text=Junseo%20Go&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%2C%20verifying%20what%20AI%20agents%20build&descAlignY=55&descSize=18)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=1B64DA&center=true&vCenter=true&width=700&lines=AI+%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8+%EC%9C%84%EC%9E%84+%EC%A1%B0%EC%82%AC+6%EA%B1%B4+%EC%A4%91+3%EA%B1%B4+%EC%98%A4%EB%A5%98+%EA%B2%80%EC%A6%9D;RAG+%EC%84%9C%EB%B2%A0%EC%9D%B4+%EB%85%BC%EB%AC%B8+%EC%9B%90%EB%AC%B8+%EC%A0%95%EB%8F%85;IEEE+CoG+2026+VGC+AI+%EB%8C%80%ED%9A%8C+1%EC%9C%84)](https://gary5876.github.io/portfolio/)
+![AI 조사 검증](https://img.shields.io/badge/AI_위임_조사-6건_중_3건_오류_검증-1B64DA?style=for-the-badge)
+![RAG 논문](https://img.shields.io/badge/RAG_서베이_논문-원문_정독-2698BA?style=for-the-badge)
+![IEEE CoG 2026](https://img.shields.io/badge/IEEE_CoG_2026-VGC_AI_대회_1위-1B64DA?style=for-the-badge)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-gary5876.github.io%2Fportfolio-1B64DA?style=flat-square)](https://gary5876.github.io/portfolio/)
 [![Email](https://img.shields.io/badge/Email-jerry0622%40naver.com-2698BA?style=flat-square&logo=gmail&logoColor=white)](mailto:jerry0622@naver.com)
@@ -39,10 +41,3 @@ PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스�
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 
----
-
-<div align="center">
-
-![streak stats](https://streak-stats.demolab.com/?user=gary5876&theme=default&hide_border=true&background=FFFFFF00&ring=1B64DA&fire=2698BA&currStreakLabel=1B64DA)
-
-</div>

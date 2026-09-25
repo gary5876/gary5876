@@ -2,7 +2,9 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:1B64DA,100:2698BA&height=200&section=header&text=Junseo%20Go&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%2C%20verifying%20what%20AI%20agents%20build&descAlignY=55&descSize=18)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=1B64DA&center=true&vCenter=true&width=700&lines=%EB%8F%99%EC%95%84%EB%A6%AC%EC%9B%80+%EC%8B%A4%EC%82%AC%EC%9A%A9%EC%9E%90+3%2C500%EB%AA%85%2C+1%EB%85%84%EA%B0%84+%EC%9A%B4%EC%98%81+%EC%A4%91;IEEE+CoG+2026+VGC+AI+%EB%8C%80%ED%9A%8C+1%EC%9C%84;AI+%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8+%EC%9C%84%EC%9E%84+%EC%A1%B0%EC%82%AC+6%EA%B1%B4+%EC%A4%91+3%EA%B1%B4+%EC%98%A4%EB%A5%98+%EA%B2%80%EC%A6%9D)](https://gary5876.github.io/portfolio/)
+![동아리움 실사용자](https://img.shields.io/badge/동아리움_실사용자-3,500명-1B64DA?style=for-the-badge)
+![IEEE CoG 2026](https://img.shields.io/badge/IEEE_CoG_2026-VGC_AI_대회_1위-2698BA?style=for-the-badge)
+![AI 조사 검증](https://img.shields.io/badge/AI_위임_조사-6건_중_3건_오류_검증-1B64DA?style=for-the-badge)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-gary5876.github.io%2Fportfolio-1B64DA?style=flat-square)](https://gary5876.github.io/portfolio/)
 [![Email](https://img.shields.io/badge/Email-jerry0622%40naver.com-2698BA?style=flat-square&logo=gmail&logoColor=white)](mailto:jerry0622@naver.com)
@@ -41,13 +43,6 @@ PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스�
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 
----
-
-<div align="center">
-
-![streak stats](https://streak-stats.demolab.com/?user=gary5876&theme=default&hide_border=true&background=FFFFFF00&ring=1B64DA&fire=2698BA&currStreakLabel=1B64DA)
-
-</div>
