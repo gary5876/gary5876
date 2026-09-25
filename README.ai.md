@@ -1,6 +1,18 @@
 <!-- AI 전용 변형. 사용법: cp README.ai.md README.md && git commit -am "profile: ai" && git push -->
 
-# 안녕하세요, Junseo입니다
+<div align="center">
+
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1B64DA,100:2698BA&height=200&section=header&text=Junseo%20Go&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%2C%20verifying%20what%20AI%20agents%20build&descAlignY=55&descSize=18)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=1B64DA&center=true&vCenter=true&width=700&lines=AI+%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8+%EC%9C%84%EC%9E%84+%EC%A1%B0%EC%82%AC+6%EA%B1%B4+%EC%A4%91+3%EA%B1%B4+%EC%98%A4%EB%A5%98+%EA%B2%80%EC%A6%9D;RAG+%EC%84%9C%EB%B2%A0%EC%9D%B4+%EB%85%BC%EB%AC%B8+%EC%9B%90%EB%AC%B8+%EC%A0%95%EB%8F%85;IEEE+CoG+2026+VGC+AI+%EB%8C%80%ED%9A%8C+1%EC%9C%84)](https://gary5876.github.io/portfolio/)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-gary5876.github.io%2Fportfolio-1B64DA?style=flat-square)](https://gary5876.github.io/portfolio/)
+[![Email](https://img.shields.io/badge/Email-jerry0622%40naver.com-2698BA?style=flat-square&logo=gmail&logoColor=white)](mailto:jerry0622@naver.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hi--d--357746213-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hi-d-357746213/)
+
+</div>
+
+---
 
 카카오테크캠퍼스에서 백엔드를 배웠고 게임 AI 에이전트를 만들었고 LLM 기반 백엔드도 혼자 설계해서 운영해 봤습니다. 요즘은 Temporal로 LLM 파이프라인 결과를 검증하는 과정을 자동화하는 데 관심이 많습니다. 앞으로는 RAG 파이프라인을 실무 규모로 직접 구성해보고 싶습니다.
 
@@ -10,12 +22,27 @@ IEEE CoG 2026 포켓몬 VGC AI 대회를 준비하는 게임 AI입니다. GCP VM
 
 ## [study-helper-backend](https://github.com/gary5876/study-helper-backend)
 
-PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스입니다. 백엔드(FastAPI)뿐 아니라 [웹](https://github.com/gary5876/study-helper-web)(Next.js)과 [모바일](https://github.com/gary5876/study-helper-mobile)(React Native) 클라이언트까지 세 레포 전부 혼자 만들었습니다. 백엔드는 Claude·GPT·TimelyGPT 세 개 LLM API를 연동하면서 프로바이더별로 서킷 브레이커를 붙여 장애를 격리했고, 같은 PDF가 다시 오면 해시로 잡아서 LLM을 다시 안 부릅니다. Cloud Run에 키 없이 배포합니다.
+PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스입니다. 백엔드(FastAPI)뿐 아니라 [웹](https://github.com/gary5876/study-helper-web)(Next.js)과 [모바일](https://github.com/gary5876/study-helper-mobile)(React Native) 클라이언트까지 세 레포 전부 혼자 만들었습니다. 백엔드는 Claude, GPT, TimelyGPT 세 개 LLM API를 연동하면서 프로바이더별로 서킷 브레이커를 붙여 장애를 격리했고, 같은 PDF가 다시 오면 해시로 잡아서 LLM을 다시 안 부릅니다. Cloud Run에 키 없이 배포합니다.
 
 그 외 RAG 서베이 논문을 정리한 [rag-survey-notes](https://github.com/gary5876/rag-survey-notes), 데이터 품질 점수로 ML 모델 성능을 예측해본 캡스톤 [capstone-dsc](https://github.com/gary5876/capstone-dsc)가 있습니다.
 
 ## 배경
 
-인공지능학부에서 공부했고 카카오테크캠퍼스 백엔드 과정을 수료했습니다. 6명(백엔드 3, 프론트 3) 팀 프로젝트 [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)에서는 지원서 제출 도메인의 API와 DB 모델링, 통계·공지·이메일 알림을 맡았습니다. AWS Certified Cloud Practitioner와 AI Practitioner를 갖고 있습니다.
+인공지능학부에서 공부했고 카카오테크캠퍼스 백엔드 과정을 수료했습니다. 6명(백엔드 3, 프론트 3) 팀 프로젝트 [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)에서는 지원서 제출 도메인의 API와 DB 모델링, 통계, 공지, 이메일 알림을 맡았습니다. AWS Certified Cloud Practitioner와 AI Practitioner를 갖고 있습니다.
 
-Python, FastAPI, scipy, Java, Spring Boot, PostgreSQL, Docker, GCP
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![scipy](https://img.shields.io/badge/scipy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+
+---
+
+<div align="center">
+
+![streak stats](https://streak-stats.demolab.com/?user=gary5876&theme=default&hide_border=true&background=FFFFFF00&ring=1B64DA&fire=2698BA&currStreakLabel=1B64DA)
+
+</div>
