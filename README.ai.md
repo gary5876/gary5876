@@ -18,17 +18,17 @@
 
 카카오테크캠퍼스에서 백엔드를 배웠고 게임 AI 에이전트를 만들었고 LLM 기반 백엔드도 혼자 설계해서 운영해 봤습니다. 요즘은 Temporal로 LLM 파이프라인 결과를 검증하는 과정을 자동화하는 데 관심이 많습니다. 앞으로는 RAG 파이프라인을 실무 규모로 직접 구성해보고 싶습니다.
 
-## [vgc-ai](https://github.com/gary5876/vgc-ai)
+## 🎮 [vgc-ai](https://github.com/gary5876/vgc-ai)
 
 IEEE CoG 2026 포켓몬 VGC AI 대회를 준비하는 게임 AI입니다. GCP VM에 코딩에이전트를 올려서 전략을 제안하게 하고, 자가대전 2000판으로 검증해 신뢰구간 기준을 통과한 것만 merge하는 방식으로 운영했습니다. 좋아 보이던 변경이 재검증에서 기각된 경우도 그대로 기록해 뒀습니다. 수업에서 연 25명 리그전 팀빌딩(Championship) 부문에서 1위를 했습니다.
 
-## [study-helper-backend](https://github.com/gary5876/study-helper-backend)
+## 📄 [study-helper-backend](https://github.com/gary5876/study-helper-backend)
 
 PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스입니다. 백엔드(FastAPI)뿐 아니라 [웹](https://github.com/gary5876/study-helper-web)(Next.js)과 [모바일](https://github.com/gary5876/study-helper-mobile)(React Native) 클라이언트까지 세 레포 전부 혼자 만들었습니다. 백엔드는 Claude, GPT, TimelyGPT 세 개 LLM API를 연동하면서 프로바이더별로 서킷 브레이커를 붙여 장애를 격리했고, 같은 PDF가 다시 오면 해시로 잡아서 LLM을 다시 안 부릅니다. Cloud Run에 키 없이 배포합니다.
 
 그 외 RAG 서베이 논문을 정리한 [rag-survey-notes](https://github.com/gary5876/rag-survey-notes), 데이터 품질 점수로 ML 모델 성능을 예측해본 캡스톤 [capstone-dsc](https://github.com/gary5876/capstone-dsc)가 있습니다.
 
-## 배경
+## 🎓 배경
 
 인공지능학부에서 공부했고 카카오테크캠퍼스 백엔드 과정을 수료했습니다. 6명(백엔드 3, 프론트 3) 팀 프로젝트 [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)에서는 지원서 제출 도메인의 API와 DB 모델링, 통계, 공지, 이메일 알림을 맡았습니다. AWS Certified Cloud Practitioner와 AI Practitioner를 갖고 있습니다.
 
@@ -41,3 +41,15 @@ PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스�
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 
+---
+
+## 📈 활동
+
+![commit grid](https://ghchart.rshah.org/1B64DA/gary5876)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gary5876/gary5876/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="snake" src="https://raw.githubusercontent.com/gary5876/gary5876/output/github-contribution-grid-snake.svg" />
+</picture>
+
+![footer](https://capsule-render.vercel.app/api?type=rect&color=0:1B64DA,100:2698BA&height=4)
