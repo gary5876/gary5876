@@ -3,7 +3,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:1B64DA,100:2698BA&height=200&section=header&text=Junseo%20Go&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%2C%20verifying%20what%20AI%20agents%20build&descAlignY=55&descSize=18)
 
 ![동아리움 실사용자](https://img.shields.io/badge/동아리움_실사용자-3,500명-1B64DA?style=for-the-badge)
-![IEEE CoG 2026](https://img.shields.io/badge/IEEE_CoG_2026-VGC_AI_대회_1위-2698BA?style=for-the-badge)
+![VGC 리그전 1위](https://img.shields.io/badge/VGC_교내_리그전-25팀_중_1위-2698BA?style=for-the-badge)
 ![AI 조사 검증](https://img.shields.io/badge/AI_위임_조사-6건_중_3건_오류_검증-1B64DA?style=for-the-badge)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-gary5876.github.io%2Fportfolio-1B64DA?style=flat-square)](https://gary5876.github.io/portfolio/)
@@ -23,7 +23,7 @@
 
 ## 🎮 [vgc-ai](https://github.com/gary5876/vgc-ai)
 
-IEEE CoG 2026 포켓몬 VGC AI 대회를 준비하는 게임 AI입니다. GCP VM에 코딩에이전트를 올려서 전략을 제안하게 하고, 자가대전 2000판으로 검증해 신뢰구간 기준을 통과한 것만 merge하는 방식으로 운영했습니다. 좋아 보이던 변경이 재검증에서 기각된 경우도 그대로 기록해 뒀습니다. 수업에서 연 25명 리그전 팀빌딩(Championship) 부문에서 1위를 했습니다.
+IEEE CoG 2026 포켓몬 VGC AI 대회를 목표로 시작했지만 대회 제출은 하지 않은 게임 AI입니다. GCP VM에 코딩에이전트를 올려서 전략을 제안하게 하고, 자가대전 2000판으로 검증해 신뢰구간 기준을 통과한 것만 merge하는 방식으로 운영했습니다. 좋아 보이던 변경이 재검증에서 기각된 경우도 그대로 기록해 뒀습니다. 수업 내 25팀 리그전에서 1위를 했습니다.
 
 ## 📄 [study-helper-backend](https://github.com/gary5876/study-helper-backend)
 
