@@ -11,6 +11,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-gary5876.github.io%2Fportfolio-1B64DA?style=flat-square)](https://gary5876.github.io/portfolio/)
 [![Email](https://img.shields.io/badge/Email-jerry0622%40naver.com-2698BA?style=flat-square&logo=gmail&logoColor=white)](mailto:jerry0622@naver.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hi--d--357746213-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hi-d-357746213/)
+![Profile Views](https://komarev.com/ghpvc/?username=gary5876&color=1B64DA&style=flat-square&label=PROFILE+VIEWS)
 
 </div>
 
@@ -30,27 +31,27 @@ PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스�
 
 카카오테크캠퍼스 백엔드 과정을 수료했습니다. [spring-gift](https://github.com/gary5876/spring-gift-order) 미션을 코드리뷰 받으며 진행했고 그 인연으로 Team18_BE까지 이어졌습니다. 학부는 인공지능학부고 AWS Certified Cloud Practitioner와 AI Practitioner를 갖고 있습니다.
 
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+<img src="https://skillicons.dev/icons?i=java,kotlin,spring,python,fastapi,mysql,postgres,redis,docker,aws,gcp&theme=dark" alt="tech stack" />
 
 ---
 
 ## 📈 활동
 
+<div align="center">
+
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gary5876&theme=nord_dark" alt="GitHub stats" />
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gary5876&theme=nord_dark" alt="Most commit language" />
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gary5876&theme=nord_dark&utcOffset=9" alt="Productive time" />
+
 ![commit grid](https://ghchart.rshah.org/1B64DA/gary5876)
+
+<img src="profile-3d-contrib/profile-night-view.svg" width="96%" alt="3D contribution graph" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gary5876/gary5876/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="snake" src="https://raw.githubusercontent.com/gary5876/gary5876/output/github-contribution-grid-snake.svg" />
+  <img alt="snake" src="https://raw.githubusercontent.com/gary5876/gary5876/output/github-contribution-grid-snake.svg" width="96%" />
 </picture>
+
+</div>
 
 ![footer](https://capsule-render.vercel.app/api?type=rect&color=0:1B64DA,100:2698BA&height=4)
