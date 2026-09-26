@@ -4,7 +4,6 @@
 
 ![동아리움 실사용자](https://img.shields.io/badge/동아리움_실사용자-3,500명-1B64DA?style=for-the-badge)
 ![VGC 리그전 1위](https://img.shields.io/badge/VGC_교내_리그전-25팀_중_1위-2698BA?style=for-the-badge)
-![위임 조사 재검증](https://img.shields.io/badge/위임한_조사_재검증-6건_중_3건_오류_포착-1B64DA?style=for-the-badge)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-gary5876.github.io%2Fportfolio-1B64DA?style=flat-square)](https://gary5876.github.io/portfolio/)
 [![Email](https://img.shields.io/badge/Email-jerry0622%40naver.com-2698BA?style=flat-square&logo=gmail&logoColor=white)](mailto:jerry0622@naver.com)
