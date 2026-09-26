@@ -4,7 +4,7 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:1B64DA,100:2698BA&height=200&section=header&text=Junseo%20Go&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%2C%20verifying%20what%20AI%20agents%20build&descAlignY=55&descSize=18)
 
-![AI 조사 검증](https://img.shields.io/badge/AI_위임_조사-6건_중_3건_오류_검증-1B64DA?style=for-the-badge)
+![위임 조사 재검증](https://img.shields.io/badge/위임한_조사_재검증-6건_중_3건_오류_포착-1B64DA?style=for-the-badge)
 ![RAG 논문](https://img.shields.io/badge/RAG_서베이_논문-원문_정독-2698BA?style=for-the-badge)
 ![VGC 리그전 1위](https://img.shields.io/badge/VGC_교내_리그전-25팀_중_1위-1B64DA?style=for-the-badge)
 
