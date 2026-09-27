@@ -1,16 +1,16 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:1B64DA,100:2698BA&height=200&section=header&text=Junseo%20Go&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%2C%20verifying%20what%20AI%20agents%20build&descAlignY=55&descSize=18)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:D97757,100:C15F3C&height=200&section=header&text=Junseo%20Go&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%2C%20verifying%20what%20AI%20agents%20build&descAlignY=55&descSize=18)
 
-![동아리움 실사용자](https://img.shields.io/badge/동아리움_실사용자-3,500명-1B64DA?style=for-the-badge)
-![VGC 리그전 1위](https://img.shields.io/badge/VGC_교내_리그전-25팀_중_1위-2698BA?style=for-the-badge)
-![직접 만든 레포](https://img.shields.io/badge/직접_만든_레포-53개-2698BA?style=for-the-badge)
-![관여한 프로젝트](https://img.shields.io/badge/관여한_프로젝트-7개-1B64DA?style=for-the-badge)
+![동아리움 실사용자](https://img.shields.io/badge/동아리움_실사용자-3,500명-D97757?style=for-the-badge)
+![VGC 리그전 1위](https://img.shields.io/badge/VGC_교내_리그전-25팀_중_1위-C15F3C?style=for-the-badge)
+![직접 만든 레포](https://img.shields.io/badge/직접_만든_레포-53개-C15F3C?style=for-the-badge)
+![관여한 프로젝트](https://img.shields.io/badge/관여한_프로젝트-7개-D97757?style=for-the-badge)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-gary5876.github.io%2Fportfolio-1B64DA?style=flat-square)](https://gary5876.github.io/portfolio/)
-[![Email](https://img.shields.io/badge/Email-jerry0622%40naver.com-2698BA?style=flat-square&logo=gmail&logoColor=white)](mailto:jerry0622@naver.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-gary5876.github.io%2Fportfolio-D97757?style=flat-square)](https://gary5876.github.io/portfolio/)
+[![Email](https://img.shields.io/badge/Email-jerry0622%40naver.com-C15F3C?style=flat-square&logo=gmail&logoColor=white)](mailto:jerry0622@naver.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hi--d--357746213-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hi-d-357746213/)
-![Profile Views](https://komarev.com/ghpvc/?username=gary5876&color=1B64DA&style=flat-square&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=gary5876&color=D97757&style=flat-square&label=PROFILE+VIEWS)
 
 </div>
 
@@ -48,7 +48,7 @@ PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스�
 <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gary5876&theme=nord_dark" alt="Most commit language" />
 <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gary5876&theme=nord_dark&utcOffset=9" alt="Productive time" />
 
-![commit grid](https://ghchart.rshah.org/1B64DA/gary5876)
+![commit grid](https://ghchart.rshah.org/D97757/gary5876)
 
 <img src="profile-3d-contrib/profile-night-view.svg" width="96%" alt="3D contribution graph" />
 
@@ -59,5 +59,5 @@ PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스�
 
 </div>
 
-![footer](https://capsule-render.vercel.app/api?type=rect&color=0:1B64DA,100:2698BA&height=4)
+![footer](https://capsule-render.vercel.app/api?type=rect&color=0:D97757,100:C15F3C&height=4)
 

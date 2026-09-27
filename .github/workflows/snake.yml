@@ -19,8 +19,8 @@ jobs:
         with:
           github_user_name: gary5876
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#D97757&color_dots=#F4DCD0,#E8B49C,#DD8B68,#D97757,#A8481F
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F0A685&color_dots=#2B1710,#5C3018,#8F4A28,#C15F3C,#D97757
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
