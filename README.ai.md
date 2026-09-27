@@ -24,9 +24,9 @@
 
 IEEE CoG 2026 포켓몬 VGC AI 대회를 목표로 시작했지만 대회 제출은 하지 않은 게임 AI입니다. GCP VM에 코딩에이전트를 올려서 전략을 제안하게 하고, 자가대전 2000판으로 검증해 신뢰구간 기준을 통과한 것만 merge하는 방식으로 운영했습니다. 좋아 보이던 변경이 재검증에서 기각된 경우도 그대로 기록해 뒀습니다. 수업 내 25팀 리그전에서 1위를 했습니다.
 
-## 📄 [study-helper-backend](https://github.com/gary5876/study-helper-backend)
+## 📄 [study-helper](https://gary5876.github.io/portfolio/projects/study-helper/)
 
-PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스입니다. 백엔드(FastAPI)뿐 아니라 [웹](https://github.com/gary5876/study-helper-web)(Next.js)과 [모바일](https://github.com/gary5876/study-helper-mobile)(React Native) 클라이언트까지 세 레포 전부 혼자 만들었습니다. 백엔드는 Claude, GPT, TimelyGPT 세 개 LLM API를 연동하면서 프로바이더별로 서킷 브레이커를 붙여 장애를 격리했고, 같은 PDF가 다시 오면 해시로 잡아서 LLM을 다시 안 부릅니다. Cloud Run에 키 없이 배포합니다.
+PDF를 올리면 LLM으로 학습 노트와 퀴즈를 만들어주는 서비스입니다. [백엔드](https://github.com/gary5876/study-helper-backend)(FastAPI)뿐 아니라 [웹](https://github.com/gary5876/study-helper-web)(Next.js)과 [모바일](https://github.com/gary5876/study-helper-mobile)(React Native) 클라이언트까지 세 레포 전부 혼자 만들었습니다. 백엔드는 Claude, GPT, TimelyGPT 세 개 LLM API를 연동하면서 프로바이더별로 서킷 브레이커를 붙여 장애를 격리했고, 같은 PDF가 다시 오면 해시로 잡아서 LLM을 다시 안 부릅니다. Cloud Run에 키 없이 배포합니다.
 
 그 외 RAG 서베이 논문을 정리한 [rag-survey-notes](https://github.com/gary5876/rag-survey-notes), 데이터 품질 점수로 ML 모델 성능을 예측해본 캡스톤 [capstone-dsc](https://github.com/gary5876/capstone-dsc)가 있습니다.
 
