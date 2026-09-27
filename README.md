@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:D97757,100:C15F3C&height=200&section=header&text=Junseo%20Go&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%2C%20verifying%20what%20AI%20agents%20build&descAlignY=55&descSize=18" alt="header" />
 
-![동아리움 실사용자](https://img.shields.io/badge/동아리움_실사용자-3,500명-D97757?style=for-the-badge)
+![동아리움 실사용자](https://img.shields.io/badge/동아리움_실사용자-4,000여명-D97757?style=for-the-badge)
 ![VGC 리그전 1위](https://img.shields.io/badge/VGC_교내_리그전-25팀_중_1위-C15F3C?style=for-the-badge)
 ![직접 만든 레포](https://img.shields.io/badge/직접_만든_레포-53개-C15F3C?style=for-the-badge)
 ![관여한 프로젝트](https://img.shields.io/badge/관여한_프로젝트-7개-D97757?style=for-the-badge)
@@ -20,7 +20,7 @@
 
 ## 🏢 [Team18_BE](https://github.com/kakao-tech-campus-3rd-step3/Team18_BE)
 
-동아리 모집, 지원자 관리 서비스 [Dongariu-um](https://www.dongarium.co.kr/)의 백엔드입니다. Google Analytics 기준 활성 사용자 약 3,500명, 이벤트 약 12만 건이 기록된 서비스를 카카오테크캠퍼스에서 백엔드 3명, 프론트 3명이 1년째 만들고 있고 지금도 운영하고 있습니다. 저는 백엔드에서 지원서 제출 도메인의 API와 DB 모델링을 맡았고 통계와 공지는 처음부터 끝까지 혼자 만들었으며 이메일 알림도 대부분 제가 작성했습니다. 지원서 목록 조회가 느려서 join fetch와 프로젝션으로 쿼리를 줄였고, 이메일 발송은 이벤트로 분리해 재시도 가능한 실패와 아닌 실패를 나눠 처리했습니다. 장애를 바로 보려고 Prometheus, Grafana, Loki 모니터링을 팀에서 직접 붙였고, 테스트는 계층별로 299개를 쌓았습니다.
+동아리 모집, 지원자 관리 서비스 [Dongariu-um](https://www.dongarium.co.kr/)의 백엔드입니다. Google Analytics 기준 누적 사용자 약 4,000여 명, 이벤트 약 13만 건이 기록된 서비스를 카카오테크캠퍼스에서 백엔드 3명, 프론트 3명이 1년째 만들고 있고 지금도 운영하고 있습니다. 저는 백엔드에서 지원서 제출 도메인의 API와 DB 모델링을 맡았고 통계와 공지는 처음부터 끝까지 혼자 만들었으며 이메일 알림도 대부분 제가 작성했습니다. 지원서 목록 조회가 느려서 join fetch와 프로젝션으로 쿼리를 줄였고, 이메일 발송은 이벤트로 분리해 재시도 가능한 실패와 아닌 실패를 나눠 처리했습니다. 장애를 바로 보려고 Prometheus, Grafana, Loki 모니터링을 팀에서 직접 붙였고, 테스트는 계층별로 299개를 쌓았습니다.
 
 ## 🎮 [vgc-ai](https://github.com/gary5876/vgc-ai)
 

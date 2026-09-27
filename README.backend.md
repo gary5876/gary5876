@@ -4,7 +4,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:D97757,100:C15F3C&height=200&section=header&text=Junseo%20Go&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%2C%20verifying%20what%20AI%20agents%20build&descAlignY=55&descSize=18" alt="header" />
 
-![실사용자 3,500명](https://img.shields.io/badge/동아리움_실사용자-3,500명-D97757?style=for-the-badge)
+![실사용자 4,000여명](https://img.shields.io/badge/동아리움_실사용자-4,000여명-D97757?style=for-the-badge)
 ![테스트 299개](https://img.shields.io/badge/테스트-계층별_299개-C15F3C?style=for-the-badge)
 ![모니터링](https://img.shields.io/badge/장애_모니터링-Prometheus_Grafana_Loki_직접_구축-D97757?style=for-the-badge)
 ![직접 만든 레포](https://img.shields.io/badge/직접_만든_레포-53개-C15F3C?style=for-the-badge)
