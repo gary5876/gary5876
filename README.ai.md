@@ -6,6 +6,8 @@
 
 ![RAG 논문](https://img.shields.io/badge/RAG_서베이_논문-원문_정독-2698BA?style=for-the-badge)
 ![VGC 리그전 1위](https://img.shields.io/badge/VGC_교내_리그전-25팀_중_1위-1B64DA?style=for-the-badge)
+![직접 만든 레포](https://img.shields.io/badge/직접_만든_레포-53개-2698BA?style=for-the-badge)
+![관여한 프로젝트](https://img.shields.io/badge/관여한_프로젝트-7개-1B64DA?style=for-the-badge)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-gary5876.github.io%2Fportfolio-1B64DA?style=flat-square)](https://gary5876.github.io/portfolio/)
 [![Email](https://img.shields.io/badge/Email-jerry0622%40naver.com-2698BA?style=flat-square&logo=gmail&logoColor=white)](mailto:jerry0622@naver.com)
