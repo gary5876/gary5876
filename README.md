@@ -5,6 +5,7 @@
 ![동아리움 실사용자](https://img.shields.io/badge/동아리움_실사용자-4,000여명-D97757?style=for-the-badge)
 ![VGC 리그전 1위](https://img.shields.io/badge/VGC_교내_리그전-25팀_중_1위-C15F3C?style=for-the-badge)
 ![diet-setlog 경진대회 1위](https://img.shields.io/badge/GDGoC_전남대_경진대회-7팀_중_1위-D97757?style=for-the-badge)
+
 ![직접 만든 레포](https://img.shields.io/badge/직접_만든_레포-53개-C15F3C?style=for-the-badge)
 ![관여한 프로젝트](https://img.shields.io/badge/관여한_프로젝트-7개-D97757?style=for-the-badge)
 
